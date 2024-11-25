@@ -225,3 +225,83 @@ button:hover {
     color: white;
     text-decoration: none
 }
+
+/* RESPONSIVIDADE */
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column; 
+        overflow: visible;
+    }
+
+    div{
+        font-size: 11px;
+    }
+
+    .textinfo{
+        display: flex;
+        padding-right: 0px;
+        flex-wrap: nowrap;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .textcode{
+        font-size: 20px;
+    }
+
+    button {
+        margin-bottom: 90px;
+        margin-left: 100px;
+    }
+
+    .rodape{
+        margin-top: 50px;
+        
+    }
+
+    .p-contato{
+        text-align: center;
+    }
+
+    .rodape-contato{
+        margin-top: 5px;
+    }
+
+    #inome{
+        margin-top: 5px;
+    }
+
+    #iemail{
+        width: 300px;
+    }
+
+    #imsg{
+        width: 300px;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    form p{
+        margin-left: 70px;
+    }
+
+    img {
+        width: 30%; /* Ajusta a largura da imagem */
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .sobre{
+        flex-direction: column;
+    }
+
+    .text-sobre{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}
